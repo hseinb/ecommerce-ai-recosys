@@ -1,0 +1,1073 @@
+[2026-10-01 15:25:15] === WiFi Sync Runner Invoked ===
+[2026-10-01 15:25:15] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-01 15:25:15] Target WiFi matched and not synced today. Verifying database reachability (192.168.1.3)...
+[2026-10-01 15:25:15] Starting Recosys sync execution...
+[2026-10-01 15:26:09] Sync failed with exit code 1. Today will NOT be marked as synced so it can retry.
+[2026-10-01 15:26:41] === WiFi Sync Runner Invoked ===
+[2026-10-01 15:26:41] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-01 15:26:41] Target WiFi matched and not synced today. Verifying database reachability (192.168.1.3)...
+[2026-10-01 15:26:41] Starting Recosys sync execution...
+[2026-10-01 15:29:07] Sync succeeded! Recorded today (2026-10-01) as last sync date.
+[2026-10-01 15:29:20] === WiFi Sync Runner Invoked ===
+[2026-10-01 15:29:21] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-01 15:29:21] Already synced today (2026-10-01). Enforcing once-per-day policy. Exiting.
+[2026-10-01 15:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-01 15:48:35] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-01 15:48:35] Already synced today (2026-10-01). Enforcing once-per-day policy. Exiting.
+[2026-10-01 16:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-01 16:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-01 16:03:34] Already synced today (2026-10-01). Enforcing once-per-day policy. Exiting.
+[2026-10-01 16:18:33] === WiFi Sync Runner Invoked ===
+[2026-10-01 16:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-01 16:18:34] Already synced today (2026-10-01). Enforcing once-per-day policy. Exiting.
+[2026-10-01 16:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-01 16:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-01 16:33:34] Already synced today (2026-10-01). Enforcing once-per-day policy. Exiting.
+[2026-10-01 16:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-01 16:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-01 16:48:34] Already synced today (2026-10-01). Enforcing once-per-day policy. Exiting.
+[2026-10-01 17:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-01 17:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-01 17:03:34] Already synced today (2026-10-01). Enforcing once-per-day policy. Exiting.
+[2026-10-03 09:33:57] === WiFi Sync Runner Invoked ===
+[2026-10-03 09:33:58] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-03 09:33:58] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-03 09:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-03 09:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-03 09:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-03 10:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-03 10:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-03 10:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-05 09:28:49] === WiFi Sync Runner Invoked ===
+[2026-10-05 09:28:49] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-05 09:28:49] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-05 09:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 09:33:35] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-05 09:33:35] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-05 09:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 09:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-05 09:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-05 10:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 10:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-05 10:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-05 10:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 10:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-05 10:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-05 10:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 10:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-05 10:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-05 10:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 10:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-05 10:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-05 11:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 11:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-05 11:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-05 15:18:48] === WiFi Sync Runner Invoked ===
+[2026-10-05 15:18:48] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-05 15:18:48] Target WiFi matched and not synced today. Verifying database reachability (192.168.1.3)...
+[2026-10-05 15:18:48] Starting Recosys sync execution...
+[2026-10-05 15:20:53] Sync succeeded! Recorded today (2026-10-05) as last sync date.
+[2026-10-05 15:59:22] === WiFi Sync Runner Invoked ===
+[2026-10-05 15:59:22] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-05 15:59:22] Already synced today (2026-10-05). Enforcing once-per-day policy. Exiting.
+[2026-10-05 16:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 16:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-05 16:03:34] Already synced today (2026-10-05). Enforcing once-per-day policy. Exiting.
+[2026-10-05 16:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 16:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-05 16:18:34] Already synced today (2026-10-05). Enforcing once-per-day policy. Exiting.
+[2026-10-05 16:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 16:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-05 16:33:34] Already synced today (2026-10-05). Enforcing once-per-day policy. Exiting.
+[2026-10-05 16:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 16:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-05 16:48:34] Already synced today (2026-10-05). Enforcing once-per-day policy. Exiting.
+[2026-10-05 17:03:35] === WiFi Sync Runner Invoked ===
+[2026-10-05 17:03:35] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-05 17:03:35] Already synced today (2026-10-05). Enforcing once-per-day policy. Exiting.
+[2026-10-05 17:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 17:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-05 17:18:34] Already synced today (2026-10-05). Enforcing once-per-day policy. Exiting.
+[2026-10-05 17:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 17:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-05 17:33:34] Already synced today (2026-10-05). Enforcing once-per-day policy. Exiting.
+[2026-10-05 17:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 17:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-05 17:48:34] Already synced today (2026-10-05). Enforcing once-per-day policy. Exiting.
+[2026-10-05 18:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 18:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-05 18:03:34] Already synced today (2026-10-05). Enforcing once-per-day policy. Exiting.
+[2026-10-05 18:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 18:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-05 18:18:34] Already synced today (2026-10-05). Enforcing once-per-day policy. Exiting.
+[2026-10-05 18:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 18:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-05 18:33:34] Already synced today (2026-10-05). Enforcing once-per-day policy. Exiting.
+[2026-10-05 18:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-05 18:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-05 18:48:34] Already synced today (2026-10-05). Enforcing once-per-day policy. Exiting.
+[2026-10-06 12:41:18] === WiFi Sync Runner Invoked ===
+[2026-10-06 12:41:20] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 12:41:20] Target WiFi matched and not synced today. Verifying database reachability (192.168.1.3)...
+[2026-10-06 12:41:20] Starting Recosys sync execution...
+[2026-10-06 12:43:45] Sync succeeded! Recorded today (2026-10-06) as last sync date.
+[2026-10-06 12:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-06 12:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 12:48:34] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 13:03:33] === WiFi Sync Runner Invoked ===
+[2026-10-06 13:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 13:03:34] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 13:18:33] === WiFi Sync Runner Invoked ===
+[2026-10-06 13:18:33] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 13:18:33] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 13:33:33] === WiFi Sync Runner Invoked ===
+[2026-10-06 13:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 13:33:34] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 13:48:33] === WiFi Sync Runner Invoked ===
+[2026-10-06 13:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 13:48:34] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 14:03:33] === WiFi Sync Runner Invoked ===
+[2026-10-06 14:03:33] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 14:03:33] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 14:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-06 14:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 14:18:34] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 14:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-06 14:33:35] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 14:33:35] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 14:48:33] === WiFi Sync Runner Invoked ===
+[2026-10-06 14:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 14:48:34] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 15:03:33] === WiFi Sync Runner Invoked ===
+[2026-10-06 15:03:33] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 15:03:33] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 15:18:33] === WiFi Sync Runner Invoked ===
+[2026-10-06 15:18:33] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 15:18:33] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 15:33:33] === WiFi Sync Runner Invoked ===
+[2026-10-06 15:33:33] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 15:33:33] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 15:48:33] === WiFi Sync Runner Invoked ===
+[2026-10-06 15:48:33] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 15:48:33] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 16:03:33] === WiFi Sync Runner Invoked ===
+[2026-10-06 16:03:33] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 16:03:33] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 16:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-06 16:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 16:18:34] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 16:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-06 16:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 16:33:34] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 16:48:35] === WiFi Sync Runner Invoked ===
+[2026-10-06 16:48:35] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 16:48:35] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 17:03:33] === WiFi Sync Runner Invoked ===
+[2026-10-06 17:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 17:03:34] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 17:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-06 17:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-06 17:18:34] Already synced today (2026-10-06). Enforcing once-per-day policy. Exiting.
+[2026-10-06 17:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-06 17:33:34] Current connected SSID: 'M' (Target: 'M-5G')
+[2026-10-06 17:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-06 17:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-06 17:48:34] Current connected SSID: 'M' (Target: 'M-5G')
+[2026-10-06 17:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-07 14:27:51] === WiFi Sync Runner Invoked ===
+[2026-10-07 14:27:51] Current connected SSID: 'M' (Target: 'M-5G')
+[2026-10-07 14:27:51] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-07 14:33:35] === WiFi Sync Runner Invoked ===
+[2026-10-07 14:33:35] Current connected SSID: 'M' (Target: 'M-5G')
+[2026-10-07 14:33:35] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-07 14:48:33] === WiFi Sync Runner Invoked ===
+[2026-10-07 14:48:33] Current connected SSID: 'M' (Target: 'M-5G')
+[2026-10-07 14:48:33] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-07 15:03:33] === WiFi Sync Runner Invoked ===
+[2026-10-07 15:03:33] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-07 15:03:33] Target WiFi matched and not synced today. Verifying database reachability (192.168.1.3)...
+[2026-10-07 15:03:34] Starting Recosys sync execution...
+[2026-10-07 15:06:38] Sync succeeded! Recorded today (2026-10-07) as last sync date.
+[2026-10-07 15:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-07 15:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-07 15:18:34] Already synced today (2026-10-07). Enforcing once-per-day policy. Exiting.
+[2026-10-07 15:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-07 15:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-07 15:33:34] Already synced today (2026-10-07). Enforcing once-per-day policy. Exiting.
+[2026-10-07 15:48:33] === WiFi Sync Runner Invoked ===
+[2026-10-07 15:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-07 15:48:34] Already synced today (2026-10-07). Enforcing once-per-day policy. Exiting.
+[2026-10-07 16:03:33] === WiFi Sync Runner Invoked ===
+[2026-10-07 16:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-07 16:03:34] Already synced today (2026-10-07). Enforcing once-per-day policy. Exiting.
+[2026-10-07 16:18:33] === WiFi Sync Runner Invoked ===
+[2026-10-07 16:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-07 16:18:34] Already synced today (2026-10-07). Enforcing once-per-day policy. Exiting.
+[2026-10-07 16:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-07 16:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-07 16:33:34] Already synced today (2026-10-07). Enforcing once-per-day policy. Exiting.
+[2026-10-07 16:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-07 16:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-07 16:48:34] Already synced today (2026-10-07). Enforcing once-per-day policy. Exiting.
+[2026-10-07 17:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-07 17:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-07 17:03:34] Already synced today (2026-10-07). Enforcing once-per-day policy. Exiting.
+[2026-10-07 17:18:33] === WiFi Sync Runner Invoked ===
+[2026-10-07 17:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-07 17:18:34] Already synced today (2026-10-07). Enforcing once-per-day policy. Exiting.
+[2026-10-08 14:35:38] === WiFi Sync Runner Invoked ===
+[2026-10-08 14:35:38] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-08 14:35:38] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-08 14:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-08 14:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-08 14:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-08 15:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-08 15:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-08 15:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-08 15:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-08 15:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-08 15:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-08 15:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-08 15:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-08 15:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-08 15:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-08 15:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-08 15:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-08 16:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-08 16:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-08 16:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-08 16:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-08 16:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-08 16:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-08 16:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-08 16:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-08 16:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-08 16:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-08 16:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-08 16:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-08 17:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-08 17:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-08 17:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-08 17:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-08 17:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-08 17:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-08 17:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-08 17:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-08 17:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-08 17:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-08 17:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-08 17:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-09 13:03:32] === WiFi Sync Runner Invoked ===
+[2026-10-09 13:03:32] Current connected SSID: 'M' (Target: 'M-5G')
+[2026-10-09 13:03:32] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-09 13:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 13:18:34] Current connected SSID: 'M' (Target: 'M-5G')
+[2026-10-09 13:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-09 13:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 13:33:35] Current connected SSID: 'M' (Target: 'M-5G')
+[2026-10-09 13:33:35] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-09 13:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 13:48:34] Current connected SSID: 'M' (Target: 'M-5G')
+[2026-10-09 13:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-09 14:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 14:03:34] Current connected SSID: 'M' (Target: 'M-5G')
+[2026-10-09 14:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-09 14:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 14:18:34] Current connected SSID: 'M' (Target: 'M-5G')
+[2026-10-09 14:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-09 14:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 14:33:34] Current connected SSID: 'M' (Target: 'M-5G')
+[2026-10-09 14:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-09 14:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 14:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-09 14:48:34] Target WiFi matched and not synced today. Verifying database reachability (192.168.1.3)...
+[2026-10-09 14:48:34] Starting Recosys sync execution...
+[2026-10-09 14:51:33] Sync succeeded! Recorded today (2026-10-09) as last sync date.
+[2026-10-09 15:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 15:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-09 15:03:34] Already synced today (2026-10-09). Enforcing once-per-day policy. Exiting.
+[2026-10-09 15:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 15:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-09 15:18:34] Already synced today (2026-10-09). Enforcing once-per-day policy. Exiting.
+[2026-10-09 15:33:36] === WiFi Sync Runner Invoked ===
+[2026-10-09 15:33:36] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-09 15:33:36] Already synced today (2026-10-09). Enforcing once-per-day policy. Exiting.
+[2026-10-09 15:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 15:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-09 15:48:34] Already synced today (2026-10-09). Enforcing once-per-day policy. Exiting.
+[2026-10-09 16:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 16:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-09 16:03:34] Already synced today (2026-10-09). Enforcing once-per-day policy. Exiting.
+[2026-10-09 16:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 16:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-09 16:18:34] Already synced today (2026-10-09). Enforcing once-per-day policy. Exiting.
+[2026-10-09 16:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 16:33:35] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-09 16:33:35] Already synced today (2026-10-09). Enforcing once-per-day policy. Exiting.
+[2026-10-09 16:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 16:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-09 16:48:34] Already synced today (2026-10-09). Enforcing once-per-day policy. Exiting.
+[2026-10-09 17:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 17:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-09 17:03:34] Already synced today (2026-10-09). Enforcing once-per-day policy. Exiting.
+[2026-10-09 17:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 17:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-09 17:18:34] Already synced today (2026-10-09). Enforcing once-per-day policy. Exiting.
+[2026-10-09 17:33:35] === WiFi Sync Runner Invoked ===
+[2026-10-09 17:33:35] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-09 17:33:35] Already synced today (2026-10-09). Enforcing once-per-day policy. Exiting.
+[2026-10-09 17:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 17:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-09 17:48:34] Already synced today (2026-10-09). Enforcing once-per-day policy. Exiting.
+[2026-10-09 18:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 18:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-09 18:03:34] Already synced today (2026-10-09). Enforcing once-per-day policy. Exiting.
+[2026-10-09 18:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 18:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-09 18:18:34] Already synced today (2026-10-09). Enforcing once-per-day policy. Exiting.
+[2026-10-09 18:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-09 18:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-09 18:33:34] Already synced today (2026-10-09). Enforcing once-per-day policy. Exiting.
+[2026-10-10 09:09:33] === WiFi Sync Runner Invoked ===
+[2026-10-10 09:09:33] Current connected SSID: 'Hussein's S23 Ultra' (Target: 'M-5G')
+[2026-10-10 09:09:33] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-10 10:07:59] === WiFi Sync Runner Invoked ===
+[2026-10-10 10:07:59] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-10 10:07:59] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-10 10:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-10 10:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-10 10:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-10 10:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-10 10:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-10 10:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-10 15:37:58] === WiFi Sync Runner Invoked ===
+[2026-10-10 15:37:59] Current connected SSID: 'M' (Target: 'M-5G')
+[2026-10-10 15:37:59] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-10 15:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-10 15:48:34] Current connected SSID: 'M' (Target: 'M-5G')
+[2026-10-10 15:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-10 16:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-10 16:03:34] Current connected SSID: '' (Target: 'M-5G')
+[2026-10-10 16:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-10 16:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-10 16:18:34] Current connected SSID: 'BHome_App' (Target: 'M-5G')
+[2026-10-10 16:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-10 16:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-10 16:33:34] Current connected SSID: 'BHome_App' (Target: 'M-5G')
+[2026-10-10 16:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-10 16:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-10 16:48:34] Current connected SSID: 'BHome_App' (Target: 'M-5G')
+[2026-10-10 16:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-10 17:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-10 17:03:34] Current connected SSID: 'BHome_App' (Target: 'M-5G')
+[2026-10-10 17:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-10 17:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-10 17:18:34] Current connected SSID: 'BHome_App' (Target: 'M-5G')
+[2026-10-10 17:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-10 17:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-10 17:33:34] Current connected SSID: 'BHome_App' (Target: 'M-5G')
+[2026-10-10 17:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-10 17:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-10 17:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-10 17:48:34] Target WiFi matched and not synced today. Verifying database reachability (192.168.1.3)...
+[2026-10-10 17:48:34] Starting Recosys sync execution...
+[2026-10-10 17:52:23] Sync succeeded! Recorded today (2026-10-10) as last sync date.
+[2026-10-10 18:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-10 18:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-10 18:03:34] Already synced today (2026-10-10). Enforcing once-per-day policy. Exiting.
+[2026-10-12 12:21:30] === WiFi Sync Runner Invoked ===
+[2026-10-12 12:21:31] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 12:21:31] Target WiFi matched and not synced today. Verifying database reachability (192.168.1.3)...
+[2026-10-12 12:21:31] Starting Recosys sync execution...
+[2026-10-12 12:25:18] Sync succeeded! Recorded today (2026-10-12) as last sync date.
+[2026-10-12 12:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 12:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 12:33:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 12:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 12:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 12:48:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 13:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 13:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 13:03:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 13:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 13:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 13:18:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 13:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 13:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 13:33:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 13:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 13:48:35] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 13:48:35] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 14:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 14:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 14:03:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 14:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 14:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 14:18:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 14:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 14:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 14:33:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 14:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 14:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 14:48:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 15:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 15:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 15:03:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 15:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 15:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 15:18:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 15:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 15:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 15:33:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 15:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 15:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 15:48:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 16:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 16:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 16:03:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 16:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 16:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 16:18:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 16:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 16:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 16:33:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 16:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 16:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 16:48:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 17:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 17:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 17:03:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-12 17:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-12 17:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-12 17:18:34] Already synced today (2026-10-12). Enforcing once-per-day policy. Exiting.
+[2026-10-13 12:03:41] === WiFi Sync Runner Invoked ===
+[2026-10-13 12:03:42] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 12:03:42] Target WiFi matched and not synced today. Verifying database reachability (192.168.1.3)...
+[2026-10-13 12:03:42] Starting Recosys sync execution...
+[2026-10-13 12:06:15] Sync succeeded! Recorded today (2026-10-13) as last sync date.
+[2026-10-13 12:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 12:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 12:18:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 12:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 12:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 12:33:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 12:48:33] === WiFi Sync Runner Invoked ===
+[2026-10-13 12:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 12:48:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 13:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 13:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 13:03:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 13:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 13:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 13:18:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 13:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 13:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 13:33:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 13:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 13:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 13:48:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 14:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 14:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 14:03:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 14:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 14:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 14:18:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 14:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 14:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 14:33:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 14:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 14:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 14:48:35] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 15:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 15:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 15:03:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 15:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 15:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 15:18:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 15:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 15:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 15:33:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 15:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 15:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 15:48:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 16:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 16:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 16:03:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 16:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 16:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 16:18:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 16:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 16:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 16:33:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 16:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 16:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 16:48:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-13 17:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-13 17:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-13 17:03:34] Already synced today (2026-10-13). Enforcing once-per-day policy. Exiting.
+[2026-10-14 09:51:45] === WiFi Sync Runner Invoked ===
+[2026-10-14 09:51:48] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 09:51:48] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 10:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 10:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 10:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 10:18:35] === WiFi Sync Runner Invoked ===
+[2026-10-14 10:18:36] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 10:18:36] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 10:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 10:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 10:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 10:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 10:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 10:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 14:06:21] === WiFi Sync Runner Invoked ===
+[2026-10-14 14:06:22] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 14:06:22] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 14:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 14:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 14:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 14:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 14:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 14:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 14:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 14:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 14:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 15:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 15:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 15:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 15:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 15:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 15:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 15:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 15:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 15:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 15:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 15:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 15:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 16:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 16:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 16:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 16:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 16:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 16:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 16:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 16:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 16:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 16:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 16:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 16:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 17:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 17:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 17:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 17:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 17:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 17:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 17:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 17:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 17:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 17:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 17:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 17:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 18:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 18:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 18:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 18:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 18:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 18:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 18:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 18:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 18:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 18:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 18:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 18:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 19:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 19:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 19:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 19:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 19:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 19:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 19:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 19:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 19:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 19:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 19:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 19:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 20:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 20:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 20:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 20:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 20:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 20:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 20:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 20:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 20:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 20:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 20:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 20:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 21:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 21:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 21:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 21:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 21:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 21:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 21:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 21:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 21:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 21:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 21:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 21:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 22:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 22:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 22:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 22:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 22:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 22:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 22:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 22:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 22:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 22:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 22:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 22:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 23:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 23:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 23:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 23:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 23:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 23:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 23:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 23:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 23:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-14 23:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-14 23:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-14 23:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 00:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 00:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 00:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 00:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 00:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 00:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 00:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 00:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 00:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 00:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 00:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 00:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 01:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 01:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 01:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 01:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 01:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 01:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 01:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 01:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 01:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 01:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 01:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 01:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 02:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 02:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 02:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 02:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 02:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 02:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 02:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 02:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 02:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 02:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 02:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 02:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 03:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 03:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 03:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 03:18:35] === WiFi Sync Runner Invoked ===
+[2026-10-15 03:18:35] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 03:18:35] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 03:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 03:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 03:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 03:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 03:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 03:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 04:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 04:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 04:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 04:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 04:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 04:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 04:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 04:33:35] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 04:33:35] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 04:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 04:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 04:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 05:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 05:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 05:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 05:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 05:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 05:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 05:33:33] === WiFi Sync Runner Invoked ===
+[2026-10-15 05:33:33] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 05:33:33] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 05:48:33] === WiFi Sync Runner Invoked ===
+[2026-10-15 05:48:33] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 05:48:33] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 06:03:33] === WiFi Sync Runner Invoked ===
+[2026-10-15 06:03:33] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 06:03:33] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 06:18:33] === WiFi Sync Runner Invoked ===
+[2026-10-15 06:18:33] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 06:18:33] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 06:33:33] === WiFi Sync Runner Invoked ===
+[2026-10-15 06:33:33] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 06:33:33] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 06:48:33] === WiFi Sync Runner Invoked ===
+[2026-10-15 06:48:33] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 06:48:33] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 07:03:33] === WiFi Sync Runner Invoked ===
+[2026-10-15 07:03:33] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 07:03:33] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 07:18:33] === WiFi Sync Runner Invoked ===
+[2026-10-15 07:18:33] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 07:18:33] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 07:33:33] === WiFi Sync Runner Invoked ===
+[2026-10-15 07:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 07:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 07:48:33] === WiFi Sync Runner Invoked ===
+[2026-10-15 07:48:33] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 07:48:33] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 08:03:33] === WiFi Sync Runner Invoked ===
+[2026-10-15 08:03:33] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 08:03:33] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 08:18:33] === WiFi Sync Runner Invoked ===
+[2026-10-15 08:18:33] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-15 08:18:33] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 14:31:51] === WiFi Sync Runner Invoked ===
+[2026-10-15 14:31:51] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-15 14:31:51] Target WiFi matched and not synced today. Verifying database reachability (192.168.1.3)...
+[2026-10-15 14:31:51] Starting Recosys sync execution...
+[2026-10-15 14:35:00] Sync succeeded! Recorded today (2026-10-15) as last sync date.
+[2026-10-15 14:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 14:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-15 14:48:34] Already synced today (2026-10-15). Enforcing once-per-day policy. Exiting.
+[2026-10-15 15:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 15:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-15 15:03:34] Already synced today (2026-10-15). Enforcing once-per-day policy. Exiting.
+[2026-10-15 15:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 15:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-15 15:18:34] Already synced today (2026-10-15). Enforcing once-per-day policy. Exiting.
+[2026-10-15 15:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 15:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-15 15:33:34] Already synced today (2026-10-15). Enforcing once-per-day policy. Exiting.
+[2026-10-15 15:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 15:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-15 15:48:34] Already synced today (2026-10-15). Enforcing once-per-day policy. Exiting.
+[2026-10-15 16:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 16:03:35] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-15 16:03:35] Already synced today (2026-10-15). Enforcing once-per-day policy. Exiting.
+[2026-10-15 16:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 16:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-15 16:18:34] Already synced today (2026-10-15). Enforcing once-per-day policy. Exiting.
+[2026-10-15 16:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 16:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-15 16:33:34] Already synced today (2026-10-15). Enforcing once-per-day policy. Exiting.
+[2026-10-15 16:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 16:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-15 16:48:34] Already synced today (2026-10-15). Enforcing once-per-day policy. Exiting.
+[2026-10-15 17:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 17:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-15 17:03:34] Already synced today (2026-10-15). Enforcing once-per-day policy. Exiting.
+[2026-10-15 17:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 17:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-15 17:18:34] Already synced today (2026-10-15). Enforcing once-per-day policy. Exiting.
+[2026-10-15 17:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 17:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-15 17:33:34] Already synced today (2026-10-15). Enforcing once-per-day policy. Exiting.
+[2026-10-15 17:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 17:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-15 17:48:34] Already synced today (2026-10-15). Enforcing once-per-day policy. Exiting.
+[2026-10-15 18:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 18:03:35] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-15 18:03:35] Already synced today (2026-10-15). Enforcing once-per-day policy. Exiting.
+[2026-10-15 20:58:19] === WiFi Sync Runner Invoked ===
+[2026-10-15 20:58:19] Current connected SSID: 'Hiba' (Target: 'M-5G')
+[2026-10-15 20:58:19] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 21:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 21:03:34] Current connected SSID: 'Hiba' (Target: 'M-5G')
+[2026-10-15 21:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 21:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 21:18:34] Current connected SSID: 'Hiba' (Target: 'M-5G')
+[2026-10-15 21:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 21:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 21:33:34] Current connected SSID: 'Hiba' (Target: 'M-5G')
+[2026-10-15 21:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 21:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 21:48:34] Current connected SSID: 'Hiba' (Target: 'M-5G')
+[2026-10-15 21:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 23:01:46] === WiFi Sync Runner Invoked ===
+[2026-10-15 23:01:46] Current connected SSID: 'Hiba' (Target: 'M-5G')
+[2026-10-15 23:01:46] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 23:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 23:03:34] Current connected SSID: 'Hiba' (Target: 'M-5G')
+[2026-10-15 23:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 23:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 23:18:34] Current connected SSID: 'Hiba' (Target: 'M-5G')
+[2026-10-15 23:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-15 23:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-15 23:33:34] Current connected SSID: 'Hiba' (Target: 'M-5G')
+[2026-10-15 23:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-16 09:36:40] === WiFi Sync Runner Invoked ===
+[2026-10-16 09:36:41] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 09:36:41] Target WiFi matched and not synced today. Verifying database reachability (192.168.1.3)...
+[2026-10-16 09:36:41] Starting Recosys sync execution...
+[2026-10-16 09:39:00] Sync succeeded! Recorded today (2026-10-16) as last sync date.
+[2026-10-16 09:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 09:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 09:48:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 10:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 10:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 10:03:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 10:18:33] === WiFi Sync Runner Invoked ===
+[2026-10-16 10:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 10:18:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 10:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 10:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 10:33:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 10:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 10:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 10:48:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 11:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 11:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 11:03:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 11:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 11:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 11:18:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 11:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 11:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 11:33:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 11:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 11:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 11:48:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 12:29:43] === WiFi Sync Runner Invoked ===
+[2026-10-16 12:29:43] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 12:29:43] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 12:35:32] === WiFi Sync Runner Invoked ===
+[2026-10-16 12:35:32] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 12:35:32] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 12:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 12:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 12:48:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 13:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 13:03:35] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 13:03:35] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 13:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 13:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 13:18:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 13:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 13:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 13:33:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 13:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 13:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 13:48:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 14:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 14:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 14:03:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 14:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 14:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 14:18:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 14:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 14:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 14:33:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 14:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 14:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 14:48:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 15:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 15:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 15:03:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 15:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 15:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 15:18:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-16 15:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-16 15:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-16 15:33:34] Already synced today (2026-10-16). Enforcing once-per-day policy. Exiting.
+[2026-10-17 10:41:26] === WiFi Sync Runner Invoked ===
+[2026-10-17 10:41:27] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 10:41:27] Target WiFi matched and not synced today. Verifying database reachability (192.168.1.3)...
+[2026-10-17 10:41:27] Starting Recosys sync execution...
+[2026-10-17 10:44:30] Sync succeeded! Recorded today (2026-10-17) as last sync date.
+[2026-10-17 10:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-17 10:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 10:48:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 11:19:44] === WiFi Sync Runner Invoked ===
+[2026-10-17 11:19:44] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 11:19:44] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 11:33:33] === WiFi Sync Runner Invoked ===
+[2026-10-17 11:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 11:33:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 11:48:33] === WiFi Sync Runner Invoked ===
+[2026-10-17 11:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 11:48:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 12:03:33] === WiFi Sync Runner Invoked ===
+[2026-10-17 12:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 12:03:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 12:18:33] === WiFi Sync Runner Invoked ===
+[2026-10-17 12:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 12:18:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 12:33:33] === WiFi Sync Runner Invoked ===
+[2026-10-17 12:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 12:33:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 12:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-17 12:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 12:48:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 13:03:33] === WiFi Sync Runner Invoked ===
+[2026-10-17 13:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 13:03:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 13:32:57] === WiFi Sync Runner Invoked ===
+[2026-10-17 13:32:57] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 13:32:57] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 13:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-17 13:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 13:33:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 13:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-17 13:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 13:48:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 14:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-17 14:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 14:03:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 14:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-17 14:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 14:18:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 14:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-17 14:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 14:33:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 14:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-17 14:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 14:48:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 15:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-17 15:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 15:03:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 15:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-17 15:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 15:18:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 15:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-17 15:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 15:33:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 15:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-17 15:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 15:48:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 16:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-17 16:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 16:03:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 16:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-17 16:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 16:18:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 16:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-17 16:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 16:33:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-17 16:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-17 16:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-17 16:48:34] Already synced today (2026-10-17). Enforcing once-per-day policy. Exiting.
+[2026-10-19 07:34:15] === WiFi Sync Runner Invoked ===
+[2026-10-19 07:34:17] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-19 07:34:17] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-19 07:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 07:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-19 07:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-19 08:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 08:03:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-19 08:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-19 08:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 08:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-19 08:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-19 08:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 08:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-19 08:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-19 08:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 08:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-19 08:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-19 09:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 09:03:35] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-19 09:03:35] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-19 09:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 09:18:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-19 09:18:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-19 09:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 09:33:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-19 09:33:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-19 09:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 09:48:34] Current connected SSID: 'Bachir' (Target: 'M-5G')
+[2026-10-19 09:48:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-19 10:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 10:03:34] Current connected SSID: '' (Target: 'M-5G')
+[2026-10-19 10:03:34] Not connected to target WiFi 'M-5G'. Skipping sync.
+[2026-10-19 12:02:53] === WiFi Sync Runner Invoked ===
+[2026-10-19 12:02:53] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 12:02:53] Target WiFi matched and not synced today. Verifying database reachability (192.168.1.3)...
+[2026-10-19 12:02:53] Starting Recosys sync execution...
+[2026-10-19 12:06:43] Sync succeeded! Recorded today (2026-10-19) as last sync date.
+[2026-10-19 12:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 12:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 12:18:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 12:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 12:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 12:33:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 12:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 12:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 12:48:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 13:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 13:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 13:03:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 13:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 13:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 13:18:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 13:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 13:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 13:33:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 13:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 13:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 13:48:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 14:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 14:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 14:03:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 14:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 14:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 14:18:35] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 14:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 14:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 14:33:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 14:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 14:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 14:48:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 15:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 15:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 15:03:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 15:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 15:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 15:18:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 15:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 15:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 15:33:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 15:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 15:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 15:48:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 16:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 16:03:35] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 16:03:35] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 16:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 16:18:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 16:18:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 16:33:36] === WiFi Sync Runner Invoked ===
+[2026-10-19 16:33:39] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 16:33:39] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 16:48:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 16:48:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 16:48:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 17:03:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 17:03:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 17:03:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 17:18:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 17:18:35] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 17:18:35] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.
+[2026-10-19 17:33:34] === WiFi Sync Runner Invoked ===
+[2026-10-19 17:33:34] Current connected SSID: 'M-5G' (Target: 'M-5G')
+[2026-10-19 17:33:34] Already synced today (2026-10-19). Enforcing once-per-day policy. Exiting.

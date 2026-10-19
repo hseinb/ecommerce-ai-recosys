@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latent Space Explorer & Intelligence Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Three.js + OrbitControls + Tween.js for 3D graphics & smooth camera interpolation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
+</head>
+<body>
+
+  <!-- WebGL 3D Canvas Container -->
+  <div id="canvas-container"></div>
+
+  <!-- Top Navigation Bar -->
+  <header class="top-nav glass">
+    <!-- Brand -->
+    <div class="brand">
+      <div class="brand-icon">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+        </svg>
+      </div>
+      <div>
+        <div class="brand-title">Recosys Intelligence</div>
+      </div>
+    </div>
+
+    <!-- Navigation Mode Tabs -->
+    <nav class="nav-tabs">
+      <button class="tab-btn active" data-tab="tab-3d">
+        <span>🌐 3D Universe</span>
+      </button>
+      <button class="tab-btn" data-tab="tab-recs">
+        <span>🎯 Customer Recs</span>
+      </button>
+      <button class="tab-btn" data-tab="tab-lookalikes">
+        <span>👥 Lookalikes</span>
+      </button>
+      <button class="tab-btn" data-tab="tab-inventory">
+        <span>📦 Inventory & ROP</span>
+      </button>
+      <button class="tab-btn" data-tab="tab-seasonal">
+        <span>📈 Seasonality</span>
+      </button>
+    </nav>
+
+    <!-- 3D View Specific Controls -->
+    <div class="view-controls" id="controls-3d">
+      <!-- Entity Filter -->
+      <div class="toggle-group" title="Filter nodes in 3D space">
+        <button id="btn-show-all" class="toggle-btn active">All (2,440)</button>
+        <button id="btn-show-items" class="toggle-btn">Items (2,166)</button>
+        <button id="btn-show-custs" class="toggle-btn gold">Customers (274)</button>
+      </div>
+
+      <!-- Projection Switcher -->
+      <div class="toggle-group">
+        <button id="btn-tsne" class="toggle-btn active" title="Non-linear manifold">t-SNE</button>
+        <button id="btn-pca" class="toggle-btn" title="Linear variance axes">PCA</button>
+      </div>
+
+      <!-- Auto Rotate Toggle -->
+      <button id="btn-autorotate" class="nav-icon-btn active" title="Toggle Rotation">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
+        </svg>
+        Rotate
+      </button>
+
+      <!-- Reset Camera Button -->
+      <button id="btn-reset-view" class="nav-icon-btn" title="Reset View">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+          <path d="M3 3v5h5"/>
+        </svg>
+        Reset
+      </button>
+    </div>
+  </header>
+
+  <!-- 3D Filter Sidebar -->
+  <aside class="sidebar-3d glass" id="sidebar-3d">
+    <div class="panel-section">
+      <div class="section-label">Search Space</div>
+      <input type="text" id="search-input-3d" class="search-box" placeholder="Search item or customer..." />
+    </div>
+
+    <!-- Entity Legend -->
+    <div class="panel-section">
+      <div class="section-label">Entity Legend</div>
+      <div class="filter-badge-list">
+        <div class="filter-badge-item active" id="legend-items">
+          <div class="dot-label">
+            <div class="color-dot" style="background:var(--accent-cyan); color:var(--accent-cyan);"></div>
+            <span id="legend-items-count">Catalog Items (2,166)</span>
+          </div>
+        </div>
+        <div class="filter-badge-item active gold" id="legend-customers">
+          <div class="dot-label">
+            <div class="color-dot" style="background:var(--accent-gold); color:var(--accent-gold);"></div>
+            <span id="legend-custs-count">Customer Vectors (275)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cluster Cohorts -->
+    <div class="panel-section">
+      <div class="section-label">✨ AI Merchandising Collections</div>
+      <div id="cluster-filter-list" class="filter-badge-list">
+        <!-- Populated via JS with Gemini cluster names -->
+      </div>
+    </div>
+
+    <div class="panel-section">
+      <div class="section-label">Interactive Controls</div>
+      <div style="font-size:0.75rem; color:var(--text-muted); line-height:1.5; font-family:var(--font-mono);">
+        • <b>Click Customer (Gold):</b> Draws links to lookalikes & recommended products<br>
+        • <b>Click Item (Cyan):</b> Draws links to top-5 nearest neighbor items<br>
+        • <b>Orbit:</b> Left Click + Drag<br>
+        • <b>Pan:</b> Right Click + Drag<br>
+        • <b>Zoom:</b> Mouse Scroll
+      </div>
+    </div>
+  </aside>
+
+  <!-- Detail Card (Item or Customer) -->
+  <div id="detail-card" class="detail-card glass">
+    <button id="close-card-btn" class="card-close-btn" title="Close">✕</button>
+    <div id="card-badge" class="entity-badge">ENTITY</div>
+    <h2 id="card-title" class="card-name">Entity Name</h2>
+    
+    <div id="card-grid" class="card-grid">
+      <!-- Populated via JS -->
+    </div>
+
+    <div class="panel-section">
+      <div id="card-connection-title" class="section-label">Connected Neighbors</div>
+      <div id="card-connections-list" class="connected-list">
+        <!-- Populated via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- OVERLAY PANEL 1: CUSTOMER RECOMMENDATIONS HUB -->
+  <section id="tab-recs" class="view-panel glass">
+    <div class="panel-header-row">
+      <div class="panel-title">
+        <span>🎯 Customer Recommendations Hub</span>
+      </div>
+      <div class="panel-filters">
+        <label for="cust-select" style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">SELECT CUSTOMER:</label>
+        <select id="cust-select" class="search-box" style="width: 280px; cursor: pointer;"></select>
+        <button id="btn-locate-cust-3d" class="btn-fly-3d" style="padding: 8px 14px; font-size: 0.8rem;">
+          🌐 View in 3D Space
+        </button>
+      </div>
+    </div>
+
+    <!-- Gemini AI Customer Persona & Sales Guidance -->
+    <div id="cust-ai-persona-box" style="margin-bottom: 16px; padding: 16px 20px; background: rgba(255, 215, 0, 0.05); border: 1px solid rgba(255, 215, 0, 0.25); border-left: 5px solid var(--accent-gold); border-radius: 8px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.25);">
+      <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255, 255, 255, 0.08); padding-bottom: 10px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="font-size: 1.1rem;">👑</span>
+          <span id="cust-profile-name" style="font-size: 1.05rem; font-weight: 700; color: #fff;">Customer Profile</span>
+          <span id="cust-profile-acc" style="font-family: var(--font-mono); font-size: 0.8rem; background: rgba(255, 215, 0, 0.15); color: var(--accent-gold); padding: 2px 8px; border-radius: 4px; border: 1px solid rgba(255, 215, 0, 0.3);">#--</span>
+        </div>
+        <div style="display: flex; gap: 16px; font-size: 0.8rem; font-family: var(--font-mono);">
+          <span style="color: var(--text-muted);">Balance: <b id="cust-profile-balance" style="color: #fff;">$--</b></span>
+          <span style="color: var(--text-muted);">Peers: <b id="cust-profile-peers" style="color: var(--accent-gold);">--</b></span>
+        </div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px;">
+        <div style="background: rgba(0, 0, 0, 0.25); padding: 12px 14px; border-radius: 6px; border-left: 3px solid var(--accent-gold);">
+          <div style="font-size: 0.72rem; text-transform: uppercase; font-weight: 700; color: var(--accent-gold); letter-spacing: 0.05em; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+            <span>👤 Gemini AI Buyer Persona</span>
+          </div>
+          <div id="cust-ai-persona-text" style="font-size: 0.88rem; color: #fef08a; line-height: 1.5; font-weight: 500;">Select a customer to view persona.</div>
+        </div>
+
+        <div style="background: rgba(0, 0, 0, 0.25); padding: 12px 14px; border-radius: 6px; border-left: 3px solid var(--accent-cyan);">
+          <div style="font-size: 0.72rem; text-transform: uppercase; font-weight: 700; color: var(--accent-cyan); letter-spacing: 0.05em; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+            <span>💡 Sales Rep Action Guidance</span>
+          </div>
+          <div id="cust-ai-notes-text" style="font-size: 0.86rem; color: #cbd5e1; line-height: 1.5;">Sales guidance will appear here.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recommendations View Mode Toggle -->
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+      <div class="toggle-group" id="recs-view-toggle">
+        <button class="toggle-btn active" id="btn-recs-direct" data-mode="direct">⚡ Personalized Recs (<span id="count-direct-recs">0</span>)</button>
+        <button class="toggle-btn" id="btn-recs-peer" data-mode="peer">👥 Bought by Lookalike Peers (<span id="count-peer-recs">0</span>)</button>
+        <button class="toggle-btn" id="btn-recs-both" data-mode="both">◫ Side-by-Side</button>
+      </div>
+      <div style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono);">
+        *Pitches tailored by Gemini for each item
+      </div>
+    </div>
+
+    <!-- Recommendations Tables Container -->
+    <div id="recs-tables-container" style="display: flex; flex-direction: column; gap: 20px; flex: 1;">
+      <!-- Direct Personalized Recs -->
+      <div id="section-direct-recs" style="display: flex; flex-direction: column; gap: 10px; flex: 1;">
+        <div style="font-weight: 700; color: var(--accent-cyan); font-size: 0.95rem; display: flex; align-items: center; gap: 8px;">
+          <span>⚡ Direct Customer Affinity (Time-decay vector)</span>
+        </div>
+        <div class="table-wrapper">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th style="width: 80px;">Code</th>
+                <th style="min-width: 140px;">Product Name</th>
+                <th style="width: 120px;">Category</th>
+                <th style="min-width: 240px;">✨ Tailored Sales Pitch</th>
+                <th style="width: 80px;">Price</th>
+                <th style="width: 90px;">Stock</th>
+                <th style="width: 80px;">Score</th>
+                <th style="width: 70px;">Action</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-direct-recs"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Peer Collaborative Recs -->
+      <div id="section-peer-recs" style="display: none; flex-direction: column; gap: 10px; flex: 1;">
+        <div style="font-weight: 700; color: var(--accent-gold); font-size: 0.95rem; display: flex; align-items: center; gap: 8px;">
+          <span>👥 Collaborative Recs (Purchased by Lookalike Peers)</span>
+        </div>
+        <div class="table-wrapper">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th style="width: 80px;">Code</th>
+                <th style="min-width: 140px;">Product Name</th>
+                <th style="min-width: 130px;">Purchased By Peer</th>
+                <th style="min-width: 240px;">✨ Tailored Sales Pitch</th>
+                <th style="width: 80px;">Price</th>
+                <th style="width: 90px;">Stock</th>
+                <th style="width: 80px;">Affinity</th>
+                <th style="width: 70px;">Action</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-peer-recs"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OVERLAY PANEL 2: CUSTOMER INTELLIGENCE & LOOKALIKE NETWORK -->
+  <section id="tab-lookalikes" class="view-panel glass">
+    <div class="panel-header-row">
+      <div class="panel-title">
+        <span>👥 Customer Intelligence & Buyer Personas</span>
+      </div>
+      <div class="panel-filters">
+        <div class="toggle-group" id="lookalike-view-toggle">
+          <button class="toggle-btn active" id="btn-toggle-personas" data-view="personas">👤 Buyer Personas Directory (275)</button>
+          <button class="toggle-btn" id="btn-toggle-pairs" data-view="pairs">🔗 Lookalike Affinity Pairs</button>
+        </div>
+        <input type="text" id="search-lookalike" class="search-box" style="width:260px;" placeholder="Search customer, persona or keyword..." />
+      </div>
+    </div>
+
+    <!-- VIEW 1: Comprehensive Buyer Personas Directory -->
+    <div id="container-personas-directory" class="table-wrapper">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th style="min-width: 140px;">Customer Name</th>
+            <th style="width: 90px;">Account #</th>
+            <th style="width: 90px;">Balance</th>
+            <th style="min-width: 260px;">👤 Gemini Buyer Persona</th>
+            <th style="min-width: 220px;">💡 Sales Rep Action Guidance</th>
+            <th style="min-width: 130px;">Top Lookalike Peer</th>
+            <th style="width: 120px;">Actions</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-personas-directory"></tbody>
+      </table>
+    </div>
+
+    <!-- VIEW 2: Lookalike Pairs Matrix -->
+    <div id="container-lookalikes-pairs" class="table-wrapper" style="display: none;">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th style="min-width: 140px;">Primary Customer</th>
+            <th style="width: 90px;">Account #</th>
+            <th style="min-width: 200px;">👤 Buyer Persona</th>
+            <th style="min-width: 140px;">Lookalike Peer</th>
+            <th style="width: 90px;">Peer Account #</th>
+            <th style="width: 90px;">Affinity Score</th>
+            <th style="width: 80px;">Peer Rank</th>
+            <th style="width: 70px;">3D Action</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-lookalikes"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- OVERLAY PANEL 3: INVENTORY SAFETY STOCK & ROP -->
+  <section id="tab-inventory" class="view-panel glass">
+    <div class="panel-header-row">
+      <div class="panel-title">
+        <span>📦 Inventory & Reorder Point (ROP) Command Center</span>
+      </div>
+      <div class="panel-filters">
+        <input type="text" id="search-inventory" class="search-box" style="width:240px;" placeholder="Search item code or name..." />
+        <div class="toggle-group" id="inv-status-filters">
+          <button class="toggle-btn active" data-status="ALL">ALL (2,166)</button>
+          <button class="toggle-btn" data-status="CRITICAL_SAFETY_BREACH" style="color:#f87171;">CRITICAL</button>
+          <button class="toggle-btn" data-status="REORDER_NOW" style="color:#fbbf24;">REORDER</button>
+          <button class="toggle-btn" data-status="OVERSTOCKED" style="color:#a78bfa;">OVERSTOCKED</button>
+          <button class="toggle-btn" data-status="OK" style="color:#34d399;">HEALTHY</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="table-wrapper">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th style="width: 80px;">Item Code</th>
+            <th style="min-width: 140px;">Product Name</th>
+            <th style="min-width: 150px;">✨ AI Collection</th>
+            <th style="width: 110px;">Category</th>
+            <th style="min-width: 240px;">✨ AI Sales Pitch</th>
+            <th style="width: 80px;">Current Stock</th>
+            <th style="width: 80px;">Daily Demand</th>
+            <th style="width: 80px;">Safety Stock</th>
+            <th style="width: 90px;">Reorder Point (ROP)</th>
+            <th style="width: 90px;">Status</th>
+            <th style="width: 80px;">Retail Price</th>
+            <th style="width: 90px;">Price Elasticity</th>
+            <th style="width: 70px;">3D Locate</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-inventory"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- OVERLAY PANEL 4: SEASONALITY DEMAND FORECAST (BY MONTH & BY SEASON) -->
+  <section id="tab-seasonal" class="view-panel glass">
+    <!-- Header with Sub-Tabs Toggle -->
+    <div class="panel-header-row">
+      <div class="panel-title">
+        <span>📈 Seasonal Demand Forecast (2024–2026 Multi-Year)</span>
+      </div>
+      <div class="toggle-group" id="seasonal-subtab-group">
+        <button class="toggle-btn active" id="subtab-btn-month" data-view="month">📅 By Month (Jan – Dec)</button>
+        <button class="toggle-btn" id="subtab-btn-season" data-view="season">🍂 By Season (Winter, Spring, Summer, Fall)</button>
+      </div>
+    </div>
+
+    <!-- SUB-VIEW 1: DEMAND BY MONTH -->
+    <div id="container-seasonal-month" class="seasonal-view-container">
+      <!-- 12-Month Selector Grid -->
+      <div class="month-selector-grid" id="month-selector-grid">
+        <!-- Populated via JS (Jan - Dec) -->
+      </div>
+
+      <!-- Month KPI Cards -->
+      <div class="kpi-cards-row">
+        <div class="kpi-card">
+          <div class="kpi-lbl">Selected Month Multi-Year Volume</div>
+          <div class="kpi-val cyan" id="kpi-month-units">--</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-lbl">Active Products in Month</div>
+          <div class="kpi-val gold" id="kpi-month-items">--</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-lbl">Peak Demand Surge Items (&ge; 1.5x)</div>
+          <div class="kpi-val rose" id="kpi-month-peak">--</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-lbl">Average Month Velocity Index</div>
+          <div class="kpi-val emerald" id="kpi-month-avg-vel">--</div>
+        </div>
+      </div>
+
+      <!-- Filters Row -->
+      <div class="panel-filters" style="justify-content: space-between; margin-bottom: 4px;">
+        <input type="text" id="search-seasonal-month" class="search-box" style="width:260px;" placeholder="Search month items, code, name..." />
+        
+        <div class="toggle-group" id="month-tier-filters">
+          <button class="toggle-btn active" data-tier="ALL">ALL TIERS</button>
+          <button class="toggle-btn" data-tier="PEAK_DEMAND" style="color:#f87171;">🔥 PEAK (&ge;1.5x)</button>
+          <button class="toggle-btn" data-tier="HIGH_DEMAND" style="color:#fbbf24;">⚡ HIGH (1.2x-1.5x)</button>
+          <button class="toggle-btn" data-tier="NORMAL_DEMAND" style="color:#34d399;">✓ NORMAL</button>
+          <button class="toggle-btn" data-tier="LOW_SEASON" style="color:#94a3b8;">❄️ LOW SEASON</button>
+        </div>
+
+        <select id="sort-seasonal-month" class="search-box" style="width:180px; cursor:pointer;">
+          <option value="vel_desc">Sort: Velocity (High &rarr; Low)</option>
+          <option value="qty_desc">Sort: Total Units (High &rarr; Low)</option>
+          <option value="stock_desc">Sort: Current Stock (High &rarr; Low)</option>
+          <option value="price_desc">Sort: Retail Price (High &rarr; Low)</option>
+        </select>
+      </div>
+
+      <!-- Month Data Table -->
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Item Code</th>
+              <th>Product Name</th>
+              <th>Category</th>
+              <th>Retail Price</th>
+              <th>Current Stock</th>
+              <th>Month Total Units (2024-2026)</th>
+              <th>Monthly Velocity Index</th>
+              <th>Demand Status</th>
+              <th>3D Action</th>
+            </tr>
+          </thead>
+          <tbody id="tbody-seasonal-month"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- SUB-VIEW 2: DEMAND BY SEASON -->
+    <div id="container-seasonal-season" class="seasonal-view-container" style="display:none;">
+      <!-- 4-Season Cards Grid -->
+      <div class="season-cards-grid" id="season-cards-grid">
+        <!-- Populated via JS (Winter, Spring, Summer, Fall) -->
+      </div>
+
+      <!-- Season KPI Cards -->
+      <div class="kpi-cards-row">
+        <div class="kpi-card">
+          <div class="kpi-lbl">Total Season Sales Volume</div>
+          <div class="kpi-val gold" id="kpi-season-units">--</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-lbl">Peak Season Products (&ge; 1.3x)</div>
+          <div class="kpi-val rose" id="kpi-season-peak">--</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-lbl">Top Demand Category</div>
+          <div class="kpi-val cyan" id="kpi-season-cat">--</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-lbl">Average Seasonal Velocity</div>
+          <div class="kpi-val emerald" id="kpi-season-avg-vel">--</div>
+        </div>
+      </div>
+
+      <!-- Filters Row -->
+      <div class="panel-filters" style="justify-content: space-between; margin-bottom: 4px;">
+        <input type="text" id="search-seasonal-season" class="search-box" style="width:260px;" placeholder="Search season items, code, name..." />
+        
+        <div class="toggle-group" id="season-tier-filters">
+          <button class="toggle-btn active" data-tier="ALL">ALL TIERS</button>
+          <button class="toggle-btn" data-tier="PEAK_SEASON" style="color:#f87171;">🔥 PEAK SEASON</button>
+          <button class="toggle-btn" data-tier="HIGH_SEASON" style="color:#fbbf24;">⚡ HIGH SEASON</button>
+          <button class="toggle-btn" data-tier="BALANCED" style="color:#34d399;">⚖️ BALANCED</button>
+          <button class="toggle-btn" data-tier="OFF_SEASON" style="color:#94a3b8;">💤 OFF SEASON</button>
+        </div>
+
+        <select id="sort-seasonal-season" class="search-box" style="width:180px; cursor:pointer;">
+          <option value="vel_desc">Sort: Velocity (High &rarr; Low)</option>
+          <option value="qty_desc">Sort: Total Units (High &rarr; Low)</option>
+          <option value="stock_desc">Sort: Current Stock (High &rarr; Low)</option>
+          <option value="price_desc">Sort: Retail Price (High &rarr; Low)</option>
+        </select>
+      </div>
+
+      <!-- Season Data Table -->
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Item Code</th>
+              <th>Product Name</th>
+              <th>Category</th>
+              <th>Retail Price</th>
+              <th>Current Stock</th>
+              <th>Season Total Units (2024-2026)</th>
+              <th>Seasonal Velocity Index</th>
+              <th>Season Tier</th>
+              <th>3D Action</th>
+            </tr>
+          </thead>
+          <tbody id="tbody-seasonal-season"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hover Tooltip -->
+  <div id="hover-tooltip" class="glass"></div>
+
+  <!-- Bottom Dock -->
+  <footer class="bottom-dock glass" id="bottom-dock">
+    <div class="dock-stat">
+      <span>Latent Dimension:</span>
+      <strong>64-D &rarr; 3-D</strong>
+    </div>
+    <div class="dock-stat">
+      <span>Total Catalog:</span>
+      <strong id="dock-total-items">2,166</strong>
+    </div>
+    <div class="dock-stat">
+      <span>Customer Vectors:</span>
+      <strong id="dock-total-custs" style="color:var(--accent-gold);">274</strong>
+    </div>
+    <div class="dock-stat">
+      <span>Active Projection:</span>
+      <strong id="dock-proj-name" style="color:var(--accent-cyan);">t-SNE 3D</strong>
+    </div>
+  </footer>
+
+  <!-- Embedded Data Source -->
+  <script src="data.js"></script>
+  <!-- Main Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
